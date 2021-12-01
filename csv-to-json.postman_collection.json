@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "b03f3397-0f6d-4490-b274-c1d140f12426",
+		"name": "csv-to-json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/javascript-20210923T050615Z-001/javascript/project/Truenorth/conversion_api/csvfile.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/csvtojson/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"csvtojson",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": {
+      "firstName": "Rohit",
+      "lastName": "Prasad"
+    },
+    "age": 35,
+    "address": {
+      "line1": "A-563 Rakshak Society",
+      "line2": "New Pune Road"
+    },
+    "gender": "male"
+  },
+  {
+    "name": {
+      "firstName": "vinayak",
+      "lastName": "chavan"
+    },
+    "age": 23,
+    "address": {
+      "line1": "A-563 Rakshak Society",
+      "line2": "New Pune Road"
+    },
+    "gender": "male"
+  },
+  {
+    "name": {
+      "firstName": "Tushar",
+      "lastName": "Bobade"
+    },
+    "age": 27,
+    "address": {
+      "line1": "B-563 Rakshak Society",
+      "line2": "Pune Road"
+    },
+    "gender": "male"
+  }
+]
